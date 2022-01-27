@@ -1,0 +1,28 @@
+{
+  "name": "lab2arquisoft",
+  "version": "1.0.0",
+  "description": "Calculadora UdeA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhonierCordoba/lab2ArquiSoft.git"
+  },
+  "keywords": [
+    "Suma",
+    "Resta",
+    "multiplicacion",
+    "Division"
+  ],
+  "author": "Jhonier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JhonierCordoba/lab2ArquiSoft/issues"
+  },
+  "homepage": "https://github.com/JhonierCordoba/lab2ArquiSoft#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
