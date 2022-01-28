@@ -10,7 +10,7 @@ function multiply(a,b){
 }
 function divide(a, b){
     if (b == 0){
-        return new Error("No es posible dividir por cero");
+        return new Error("Can't divide by zero");
     }
     return a/b;
 }
