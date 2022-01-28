@@ -1,5 +1,11 @@
 language: node_js
 node_js: 
 - "12"
+jdk.
+- oraclejdk8
+addons:
+    sonarcloud: true
+script:
+- sonar sanner -Dsonar.login=$SONAR_TOKEN - Dsonar.organization=jhoniercordoba -Dsonar.proyectKey=lab2ArquiSoft -Dsonar.sources='./app' -X
 install:
 - 'npm install'
