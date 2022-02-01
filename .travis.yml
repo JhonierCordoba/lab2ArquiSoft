@@ -7,7 +7,7 @@ addons:
     sonarcloud: true
 script:
 - npm run cover
-- sonar scanner -Dsonar.login=$SONAR_TOKEN - Dsonar.organization=jhoniercordoba -Dsonar.proyectKey=lab2ArquiSoft -Dsonar.sources='./app' -X
+- sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=jhoniercordoba-github -Dsonar.projectKey=lab2ArquiSoft -Dsonar.sources='./app' -X  
 after_succes:
 - npm run coveralls
 install:
